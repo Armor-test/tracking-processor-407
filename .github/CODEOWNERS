@@ -1,0 +1,43 @@
+# CODEOWNERS file for tracking-processor-407
+# Global owners - will be requested for all PRs
+* @Armor-test/squad-apps @Armor-test/squad-api @Armor-test/dept-release
+
+# Directory ownership
+/examples/ @Armor-test/dept-ui @Armor-test/squad-reporting
+/pages/ @Armor-test/dept-reliability @Armor-test/team-research
+/scripts/ @Armor-test/dept-security @Armor-test/grp-api @Armor-test/squad-api
+/auth/ @Armor-test/team-core @Armor-test/squad-reporting
+/security/ @Armor-test/grp-reporting @Armor-test/grp-api
+/helpers/ @Armor-test/grp-api @Armor-test/dept-test @Armor-test/team-security
+/vendor/ @Armor-test/squad-database @Armor-test/team-security
+/tests/ @Armor-test/unit-devops @Armor-test/dept-automation @Armor-test/grp-ui
+/hooks/ @Armor-test/squad-cloud @Armor-test/dept-billing @Armor-test/squad-ml
+/styles/ @Armor-test/team-research @Armor-test/grp-payments
+/db/ @Armor-test/squad-ml @Armor-test/dept-identity @Armor-test/squad-search
+/ui/ @Armor-test/dept-billing @Armor-test/dept-security
+/extensions/ @Armor-test/dept-reliability @Armor-test/unit-governance @Armor-test/dept-logging
+/controllers/ @Armor-test/squad-research @Armor-test/unit-governance
+/third_party/ @Armor-test/dept-security @Armor-test/squad-tooling @Armor-test/dept-test
+
+# File type ownership
+*.kt @Armor-test/squad-performance @Armor-test/squad-frontend @Armor-test/unit-test
+*.c @Armor-test/team-logging @Armor-test/squad-frontend
+*.tsx @Armor-test/team-notifications @Armor-test/dept-security @Armor-test/grp-search
+*.scss @Armor-test/dept-test @Armor-test/unit-cloud
+*.jsx @Armor-test/squad-ux @Armor-test/squad-ml @Armor-test/squad-api
+*.css @Armor-test/squad-payments @Armor-test/team-security
+*.ini @Armor-test/squad-search @Armor-test/squad-cloud @Armor-test/dept-test
+*.h @Armor-test/team-governance @Armor-test/dept-identity @Armor-test/grp-integration
+*.config @Armor-test/dept-api @Armor-test/dept-reliability
+*.html @Armor-test/dept-test @Armor-test/team-research @Armor-test/team-reporting
+*.sh @Armor-test/unit-governance @Armor-test/team-reporting @Armor-test/squad-api
+*.rs @Armor-test/squad-cache @Armor-test/dept-test @Armor-test/squad-frontend
+*.ts @Armor-test/grp-reporting @Armor-test/squad-search @Armor-test/squad-apps
+*.yml @Armor-test/team-frontend @Armor-test/squad-reporting @Armor-test/team-reporting
+*.java @Armor-test/squad-cloud @Armor-test/grp-integration @Armor-test/squad-ml
+
+# Security and special files
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+package.json @Armor-test/dependency-team @Armor-test/security
+Dockerfile @Armor-test/devops @Armor-test/infra
